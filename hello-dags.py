@@ -1,4 +1,4 @@
-rom datetime import datetime
+from datetime import datetime
 from airflow import DAG
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.python_operator import PythonOperator
